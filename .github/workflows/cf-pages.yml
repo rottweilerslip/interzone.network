@@ -18,7 +18,6 @@ jobs:
         with:
           node-version: 16.x
       - run: yarn install --frozen-lockfile
-      - run: yarn export
 
       - name: Publish to Cloudflare Pages
         run: |
